@@ -1,1 +1,1 @@
-# digital_resume
+# alt_digital_cv
