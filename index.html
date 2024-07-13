@@ -73,10 +73,25 @@
             visibility: hidden;
         }
         .email-link {
-            font-size: 1.2rem; /* Increase font size of email link */
+            font-size: 1.2rem; 
         }
         .email-link i {
-            font-size: 2rem; /* Increase font size of email icon */
+            font-size: 2rem; 
+        }
+        @media (max-width: 768px) {
+            .col-md-8 {
+                text-align: center;
+            }
+            .col-md-8 p {
+                text-align: justify;
+                font-style: italic;
+            }
+            .col-md-8 .email-link {
+                display: inline-block;
+                text-align: center;
+                font-style: normal; 
+                width: 100%; 
+            }
         }
     </style>
 </head>
@@ -139,7 +154,7 @@
             <h2>Projects & Accomplishments</h2>
             <ul>
                 <li><a href="https://github.com/nil0711/LM_Reseach_Project" target="_blank">🔧 LLM Project</a></li>
-                <li><a href="https://miniproject-senti.streamlit.app/" target="_blank">💬 Chat Analysis with Sentiment Analyzer</a></li>
+                <li><a href="https://github.com/nil0711/miniproject" target="_blank">💬 Chat Analysis with Sentiment Analyzer</a></li>
                 <li><a href="https://github.com/nil0711/CODE/blob/main/tkinter_test/test5.py" target="_blank">📁 File Manager</a></li>
             </ul>
         </div>
